@@ -2,12 +2,13 @@ package array;
 
 public class ArrayRotate implements ArrayActions
 {
-    void rotate(int[] arr)
+    public int[] rotate(int[] arr, int numberOfRotateTime)
     {
-        for (int i = 0; i < arr.length; i++)
+        for (int i = 0; i < numberOfRotateTime; i++)
         {
             arr = leftRotate(arr);
         }
+        return arr;
     }
 
     private int[] leftRotate(int[] arr)
