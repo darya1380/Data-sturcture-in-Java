@@ -15,6 +15,6 @@ public class TestMaximumValue
             arr[i] = 5 - i;
         }
         MaximumValueOfIMultipliesArriUsingRotationOnly m = new MaximumValueOfIMultipliesArriUsingRotationOnly();
-        assertNotEquals(m.findMaximumValue(arr), 43);
+        assertNotEquals(m.findMaxVal(arr), 43);
     }
 }
